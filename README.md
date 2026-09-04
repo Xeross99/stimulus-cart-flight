@@ -1,6 +1,13 @@
-# stimulus-cart-flight
+# Stimulus Cart Flight
+
+[![npm](https://img.shields.io/npm/v/stimulus-cart-flight?color=%23e9573f)](https://www.npmjs.com/package/stimulus-cart-flight)
+[![Downloads](https://img.shields.io/npm/dm/stimulus-cart-flight)](https://www.npmjs.com/package/stimulus-cart-flight)
+[![CI](https://github.com/Xeross99/stimulus-cart-flight/actions/workflows/ci.yml/badge.svg)](https://github.com/Xeross99/stimulus-cart-flight/actions/workflows/ci.yml)
+[![MIT](https://img.shields.io/badge/licence-MIT-blue)](LICENSE)
 
 **Add to cart, and the product flies there.**
+
+![The product's picture flying into the cart, the number counting up as each copy lands](https://raw.githubusercontent.com/Xeross99/stimulus-cart-flight/main/docs/demo.gif)
 
 A [Stimulus](https://stimulus.hotwired.dev/) controller for shops: when a product is added, a copy of its picture lifts off, arcs across the viewport and shrinks into the cart icon in your navbar. The icon bumps as it lands and the number next to it counts up on impact. If the response is a Turbo Stream that re-renders the cart — the new total, a drawer sliding open — the stream waits until the flight has landed, so five quick adds are five landings, five steps of the number and one drawer at the end.
 
