@@ -1,6 +1,6 @@
 {
   "name": "stimulus-cart-flight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Stimulus controller that flies a product's picture into the cart when it is added, counts the cart's badge up on impact and holds the Turbo Stream that re-renders the cart until the flight has landed.",
   "keywords": [
     "stimulus",
